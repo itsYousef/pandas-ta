@@ -1,0 +1,74 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pandas-ta"
+version = "0.4.25b"
+description = "A Comprehensive Python 3 Technical Analysis Library with Pandas Dataframe Extension for Quantitative Researchers, Traders, and Investors."
+authors = [{ name = "Pandas TA Support", email = "support@pandas-ta.dev" }]
+requires-python = ">=3.12"
+dependencies = [
+    "numba>=0.60.0",
+    "numpy>=2.1.0",
+    "pandas>=2.2.3",
+    "setuptools>=75.7.0",
+    "tqdm>=4.67.1",
+]
+readme = { file = "README.md", content-type = "text/markdown" }
+license-files = ["LICENSE"]
+keywords = [
+    "library",
+    "technical analysis",
+    "ta",
+    "indicators",
+    "pandas",
+    "dataframe extension",
+    "finance",
+    "trading",
+    "machine learning",
+    "ai",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Private :: Do Not Upload",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Operating System :: OS Independent",
+    "Natural Language :: English",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Financial and Insurance Industry",
+    "Intended Audience :: Science/Research",
+    "Topic :: Office/Business :: Financial",
+    "Topic :: Office/Business :: Financial :: Investment",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+]
+
+[project.urls]
+Homepage = "https://www.pandas-ta.dev"
+Documentation = "https://www.pandas-ta.dev/docs"
+Repository = "https://github.com/twopirllc/pandas-ta"
+
+[project.optional-dependencies]
+backtest = ["vectorbt>=0.27.1"]
+dev = [
+    "bokeh>=3.7.1",
+    "cryptography>=44.0.0",
+    "ipython>=8.31.0",
+    "jupyterlab>=4.3.4",
+    "matplotlib>=3.10.0",
+    "pytest>=8.3.4",
+    "requests>=2.32.3",
+    "ta-lib>=0.6.1",
+    "yfinance>=0.2.52",
+]
+docs = [
+    "mkdocs>=1.6.1",
+    "mkdocs-include-markdown-plugin>=7.1.2",
+    "mkdocs-material>=9.6.9",
+    "mkdocs-minify-plugin>=0.8.0",
+    "mkdocs-redirects>=1.2.2",
+    "mkdocstrings-python>=1.13.0",
+]

@@ -1,0 +1,90 @@
+Metadata-Version: 2.4
+Name: pandas-ta
+Version: 0.4.25b0
+Summary: A Comprehensive Python 3 Technical Analysis Library with Pandas Dataframe Extension for Quantitative Researchers, Traders, and Investors.
+Author-email: Pandas TA Support <support@pandas-ta.dev>
+Project-URL: Homepage, https://www.pandas-ta.dev
+Project-URL: Documentation, https://www.pandas-ta.dev/docs
+Project-URL: Repository, https://github.com/twopirllc/pandas-ta
+Keywords: library,technical analysis,ta,indicators,pandas,dataframe extension,finance,trading,machine learning,ai
+Classifier: Development Status :: 4 - Beta
+Classifier: Private :: Do Not Upload
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Office/Business :: Financial
+Classifier: Topic :: Office/Business :: Financial :: Investment
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numba>=0.60.0
+Requires-Dist: numpy>=2.1.0
+Requires-Dist: pandas>=2.2.3
+Requires-Dist: setuptools>=75.7.0
+Requires-Dist: tqdm>=4.67.1
+Provides-Extra: backtest
+Requires-Dist: vectorbt>=0.27.1; extra == "backtest"
+Provides-Extra: dev
+Requires-Dist: bokeh>=3.7.1; extra == "dev"
+Requires-Dist: cryptography>=44.0.0; extra == "dev"
+Requires-Dist: ipython>=8.31.0; extra == "dev"
+Requires-Dist: jupyterlab>=4.3.4; extra == "dev"
+Requires-Dist: matplotlib>=3.10.0; extra == "dev"
+Requires-Dist: pytest>=8.3.4; extra == "dev"
+Requires-Dist: requests>=2.32.3; extra == "dev"
+Requires-Dist: ta-lib>=0.6.1; extra == "dev"
+Requires-Dist: yfinance>=0.2.52; extra == "dev"
+Provides-Extra: docs
+Requires-Dist: mkdocs>=1.6.1; extra == "docs"
+Requires-Dist: mkdocs-include-markdown-plugin>=7.1.2; extra == "docs"
+Requires-Dist: mkdocs-material>=9.6.9; extra == "docs"
+Requires-Dist: mkdocs-minify-plugin>=0.8.0; extra == "docs"
+Requires-Dist: mkdocs-redirects>=1.2.2; extra == "docs"
+Requires-Dist: mkdocstrings-python>=1.13.0; extra == "docs"
+Dynamic: license-file
+
+<p align="center">
+  <a href="https://www.pandas-ta.dev"><img src="images/pta-logo.webp" alt="Pandas TA"></a>
+</p>
+
+# Pandas TA
+A popular and comprehensive Technical Analysis Library in Python 3 that leverages [_numba_](http://numba.pydata.org/) and [_numpy_](https://numpy.org/) for accuracy and performance, and [_pandas_](https://pandas.pydata.org/) for simplicity and bulk processing. The library contains more than 150 indicators and utilities as well as 60 Candlestick Patterns when [TA Lib](https://ta-lib.org) is installed.
+
+<br>
+
+[![license](https://img.shields.io/github/license/twopirllc/pandas-ta)](#license)
+[![Python Version](https://img.shields.io/pypi/pyversions/pandas-ta?style=flat)](https://pypi.org/project/pandas_ta/)
+[![PyPi Version](https://img.shields.io/pypi/v/pandas-ta?style=flat)](https://pypi.org/project/pandas_ta/)
+[![Package Status](https://img.shields.io/pypi/status/pandas-ta?style=flat)](https://pypi.org/project/pandas_ta/)
+[![Downloads](https://img.shields.io/pypi/dm/pandas_ta?style=flat)](https://pypistats.org/packages/pandas_ta)
+[![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pandas-ta.svg?label=Conda%20downloads)](https://anaconda.org/conda-forge/pandas-ta)
+[![Stars](https://img.shields.io/github/stars/twopirllc/pandas-ta?style=flat)](#stars)
+[![Forks](https://img.shields.io/github/forks/twopirllc/pandas-ta?style=flat)](#forks)
+[![Used By](https://img.shields.io/badge/used_by-258-orange.svg?style=flat)](#usedby)
+[![Contributors](https://img.shields.io/github/contributors/twopirllc/pandas-ta?style=flat)](#contributors)
+[![Issues](https://img.shields.io/github/issues-raw/twopirllc/pandas-ta?style=flat)](#issues)
+[![Closed Issues](https://img.shields.io/github/issues-closed-raw/twopirllc/pandas-ta?style=flat)](#closed-issues)
+[![Buy Me a Coffee](https://img.shields.io/badge/buy_me_a_coffee-orange.svg?style=flat)](https://www.buymeacoffee.com/twopirllc)
+
+
+![Price Chart](/images/SPY_Chart.png)
+![Volume Chart](/images/SPY_VOL.png)
+
+<br>
+
+## Details
+
+* [Getting Started](https://www.pandas-ta.dev/getting-started/installation/)
+* [Documentation](https://www.pandas-ta.dev/api/)
+* [Support](https://www.pandas-ta.dev/support/)
+
+<br>
+
+[License](https://www.pandas-ta.dev/legal/license/) - Copyright © 2025 - Pandas TA
